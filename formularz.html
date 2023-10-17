@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#">
+    <labell for="username">Imię: <input type="text" name="username" id="username"/></labell>
+    <labell for="password">hasło: <input type="password" name="password" id="password"></labell>
+
+    <labell for="number">wiek: <input type="number" name="number" id="number" min="18" max="60"/></labell>
+    <labell for="date">Data: <input type="date" name="date" id="date"/></labell>
+
+    <fieldset>
+        <legend>Twoje wybory</legend>
+
+        <labell for="checkbox">wybór1 <input type="checkbox" name="wybory" id="ch1"></labell>
+        <labell for="checkbox">wybór2 <input type="checkbox" name="wybory" id="ch2"></labell>
+        <labell for="checkbox">wybór3 <input type="checkbox" name="wybory" id="ch3"></labell>
+        <labell for="checkbox">wybór4 <input type="checkbox" name="wybory" id="ch4"></labell>
+
+    </fieldset>
+
+    <labell for="com">komentarz: <textarea name="com" id="com" cols="15" rows="4"></textarea></labell>
+    <input type="submit" value="apply"/>
+    <input type="submit" value="clear"/>
+    
+</form>
+</body>
+</html>
